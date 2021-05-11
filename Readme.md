@@ -1,7 +1,7 @@
 
 ### Description
 
-This repository is meant just to reproduce and report an issue which occurs using [graphql-eslint](https://github.com/dotansimha/graphql-eslint/)
+This repository is meant just to reproduce and report an issue ([dotansimha/graphql-eslint#422](https://github.com/dotansimha/graphql-eslint/issues/422)) which occurs using [graphql-eslint](https://github.com/dotansimha/graphql-eslint/)
 
 
 it seems that if `processor: '@graphql-eslint/graphql'` option is used together with `.graphql` or `.gql` files and if those files contain comments, processor might fail to process the file.
