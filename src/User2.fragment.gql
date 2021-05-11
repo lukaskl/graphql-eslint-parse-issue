@@ -1,0 +1,5 @@
+# Lets mention another file, e.g.: User1.fragment.gql in this comment
+fragment UserFields on User {
+  id
+  name
+}

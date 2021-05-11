@@ -1,0 +1,11 @@
+{
+  "name": "graphql-eslint-parse-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@graphql-eslint/eslint-plugin": "^0.9.1",
+    "eslint": "^7.26.0",
+    "graphql": "^15.5.0"
+  }
+}

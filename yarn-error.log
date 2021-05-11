@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/lukasklusis/.nvm/versions/node/v14.13.1/bin/node /usr/local/bin/yarn add graphql-eslint graphql
+
+PATH: 
+  /Users/lukasklusis/.asdf/shims:/usr/local/opt/asdf/bin:/Users/lukasklusis/perl5/bin:/Users/lukasklusis/.nvm/versions/node/v14.13.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/Users/lukasklusis/perl5/bin:/Users/lukasklusis/.nvm/versions/node/v14.13.1/bin:/Applications/MySQLWorkbench.app/Contents/MacOS:/Applications/MySQLWorkbench.app/Contents/MacOS
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  14.13.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/graphql-eslint: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66058:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:129541:22)
+      at Request.emit (events.js:314:20)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:130513:10)
+      at Request.emit (events.js:314:20)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:130435:12)
+      at Object.onceWrapper (events.js:420:28)
+      at IncomingMessage.emit (events.js:326:22)
+      at endReadableNT (_stream_readable.js:1252:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "graphql-eslint-parse-issue",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

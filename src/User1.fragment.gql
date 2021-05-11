@@ -1,0 +1,5 @@
+# Just any comment without any other file mentions
+fragment UserFields on User {
+  id
+  name
+}
